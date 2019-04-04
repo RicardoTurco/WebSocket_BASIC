@@ -17,5 +17,14 @@ In each one go to "WebSocket_SERVER" and "WebSocket_CLIENT" respectively.
 
 In the "WebSocket_SERVER" terminal, when it is executed "python app.py runserver", the terminal will wait:
 
+![](IMGs/001_WebSocketBASIC_SERVERwaiting.png)
+
 In the "WebSocket_CLIENT" terminal, when it is executed "python app.py runserver", the terminal will look like this:
 
+![](IMGs/002_WebSocketBASIC_runCLIENT.png)
+
+When you enter a person's name, the "CLIENT" sends it to the "SERVER", where it will return the message: 
+
+"... Hello NAME ! ..."
+
+![](IMGs/003_WebSocketBASIC_WorkingTogether.png)
