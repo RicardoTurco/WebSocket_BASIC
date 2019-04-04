@@ -7,10 +7,6 @@ import websockets
 app = Flask(__name__)
 
 
-# @app.route("/")
-# def index():
-#     return "Hello World"
-
 @asyncio.coroutine
 def hello():
     websocket = yield from websockets.connect(
