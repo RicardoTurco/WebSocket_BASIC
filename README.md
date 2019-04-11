@@ -42,3 +42,14 @@ In the "WebSocket_SERVER" terminal, when it is executed "python app.py runserver
 In the "WebSocket_CLIENT" terminal, when executed "python app.py runserver", 2 numbers will be sent to SERVER and the result of the "SOMA" method will be returned.
 
 ![](IMGs/004_WebSocketBASIC_SendAndReceiveLISTs.png)
+
+
+RUNNING THE "TESTING_DICT" METHOD: 
+
+In the "WebSocket_SERVER" terminal, when it is executed "python app.py runserver", the terminal will wait:
+
+![](IMGs/001_WebSocketBASIC_SERVERwaiting.png)
+
+In the "WebSocket_CLIENT" terminal, when running "python app.py runserver", a JSON is sent to SERVER. There, these values are changed and returned to CLIENT:
+
+![](IMGs/005_WebSocketBASIC_SendAndReceiveJSONs.png)
