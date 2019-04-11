@@ -3,6 +3,7 @@ Basic example of WebSocket using Flask and Python 3.4
 
 ATTENTION:  you must install Python 3.4 in your enviroment !!!
 
+
 Open 2 "terminals" on your computer. In each one go to "WebSocket_SERVER" and "WebSocket_CLIENT" respectively.
 
 Execute these instructions on each one:
@@ -13,6 +14,7 @@ Create virtualenv using Python 3.4;
 Active the virtualenv;
 
 pip install -r requirements.txt;
+
 
 RUNNING THE "HELLO" METHOD: 
 
@@ -29,3 +31,14 @@ When you enter a person's name, the "CLIENT" sends it to the "SERVER", where it 
 "... Hello NAME ! ..."
 
 ![](IMGs/003_WebSocketBASIC_WorkingTogether.png)
+
+
+RUNNING THE "SOMA" METHOD: 
+
+In the "WebSocket_SERVER" terminal, when it is executed "python app.py runserver", the terminal will wait:
+
+![](IMGs/001_WebSocketBASIC_SERVERwaiting.png)
+
+In the "WebSocket_CLIENT" terminal, when executed "python app.py runserver", 2 numbers will be sent to SERVER and the result of the "SOMA" method will be returned.
+
+![](IMGs/004_WebSocketBASIC_SendAndReceiveLISTs.png)
