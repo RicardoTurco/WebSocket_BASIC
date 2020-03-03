@@ -8,15 +8,14 @@ Open 2 "terminals" on your computer. In each one go to "WebSocket_SERVER" and "W
 
 Execute these instructions on each one:
 
-Create virtualenv using Python 3.4;
-(virtualenv -p python3.4 venv)
-
-Active the virtualenv;
+Create and activate virtualenv  
+(using Python 3.7 version - in 03/03/2020)
 
 pip install -r requirements.txt;
 
 
-RUNNING THE "HELLO" METHOD: 
+RUNNING THE "HELLO" METHOD:  
+(Enable the hello method in the app.py file and disable the others. This must be done in SERVER and CLIENT)
 
 In the "WebSocket_SERVER" terminal, when it is executed "python app.py runserver", the terminal will wait:
 
@@ -33,7 +32,8 @@ When you enter a person's name, the "CLIENT" sends it to the "SERVER", where it 
 ![](IMGs/003_WebSocketBASIC_WorkingTogether.png)
 
 
-RUNNING THE "SOMA" METHOD: 
+RUNNING THE "SOMA" METHOD:  
+(Enable the soma method in the app.py file and disable the others. This must be done in SERVER and CLIENT)
 
 In the "WebSocket_SERVER" terminal, when it is executed "python app.py runserver", the terminal will wait:
 
@@ -44,7 +44,8 @@ In the "WebSocket_CLIENT" terminal, when executed "python app.py runserver", 2 n
 ![](IMGs/004_WebSocketBASIC_SendAndReceiveLISTs.png)
 
 
-RUNNING THE "TESTING_DICT" METHOD: 
+RUNNING THE "TESTING_DICT" METHOD:  
+(Enable the testing_dict method in the app.py file and disable the others. This must be done in SERVER and CLIENT)
 
 In the "WebSocket_SERVER" terminal, when it is executed "python app.py runserver", the terminal will wait:
 
