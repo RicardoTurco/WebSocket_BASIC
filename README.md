@@ -1,3 +1,7 @@
+### Updated - Mar/03/20
+Python: 3.7
+
+
 # WebSocket_BASIC
 Basic example of WebSocket using Flask and Python 3.4
 
@@ -8,10 +12,14 @@ Open 2 "terminals" on your computer. In each one go to "WebSocket_SERVER" and "W
 
 Execute these instructions on each one:
 
-Create and activate virtualenv  
-(using Python 3.7 version - in 03/03/2020)
+- Create and activate virtualenv  
 
-pip install -r requirements.txt;
+- This next 3 steps are OPTIONAL, but HIGH recommended !!!
+1) python -m pip install --upgrade pip
+2) pip install -U setuptools
+3) pip install wheel
+
+- pip install -r requirements.txt;
 
 
 RUNNING THE "HELLO" METHOD:  
